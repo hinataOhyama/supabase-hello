@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: project-named
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src
+      - node_modules:/usr/src/node_modules
+    command: 'npm run dev'
+
+volumes:
+  node_modules:

@@ -1,5 +1,5 @@
 {
-  "name": "project-named",
+  "name": "supabase-hello",
   "dockerComposeFile": ["../docker-compose.yaml"],
   "service": "app",
   "workspaceFolder": "/usr/src",

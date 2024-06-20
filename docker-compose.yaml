@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    container_name: project-named
+    container_name: supabase-hello
     tty: true
     ports:
       - "3000:3000"
